@@ -1,8 +1,8 @@
 <?php
 
 $paypalConfig = [
-    'client_id' => 'AfXuYdOKIKwXLI03pqGKCbS2QPAH13oTdeuWE1rzHCBak10kIT7xAnBDP35hMYWfyH8UZ5jRqFUdRaux',
-    'client_secret' => 'EOdxHQNAQeFfm-Xq2RlK9S0xUt2P_U9yVIp1iN2fxjhCx78JpAnaepxpGb_j3pMeC8iSyuiZbz6a0wKa',
+    'client_id' => '*CLIENT_ID*',
+    'client_secret' => '*CLIENT_SECRET*',
     'return_url' => 'http://localhost/PayPalApi/paypal/response.php',
     'cancel_url' => 'http://localhost/PayPalApi/payment-cancelled.html'
 ];
